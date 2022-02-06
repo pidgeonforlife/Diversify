@@ -9,7 +9,6 @@
     width: 100%;
     z-index: 4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 30px;
     position: sticky; top: 0
   }
   
@@ -21,9 +20,8 @@
   }
 
   .navbar-logo img {
-    margin-top: 12px;
-    width: 77px;
-    height: 20px;
+    width: 57px;
+    height: 42px;
   }
   
   
@@ -162,4 +160,3 @@
       display: none;
     }
   }
-

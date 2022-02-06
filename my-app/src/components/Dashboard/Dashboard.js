@@ -27,9 +27,10 @@ function Dashboard() {
   return (
     <div className="dashboard">
        <div className="dashboard__container">
-        Logged in as
+        Welcome,
          <div>{name}</div>
-         <div>{user?.email}</div>
+         We are almost done, just need a few more steps!
+         <button className="dashboardbtn1">Continue</button>
          <button className="dashboard__btn" onClick={logout}>
           Logout
          </button>

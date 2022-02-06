@@ -1,0 +1,131 @@
+.carousel {
+    height: 300px;
+}
+
+.carousel img {
+    height: 300px;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    position: relative;
+    bottom: 180px;
+    z-index: 3;
+}
+
+.homeContainer {
+    background-color: #2F74B6;
+}
+
+.loginContainer p {
+    font-size: 30px;
+    font-weight: bolder;
+    height: 30px;
+}
+
+.loginContainer button {
+    width: 145px;
+    height: 40px;
+    background: #59ABF8;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    font-weight: bolder;
+}
+
+.colourfulWave {
+    width: 100%;
+    height: 20%;
+    margin-top: 50px;
+}
+
+.blueWave {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    bottom: 70px;
+}
+
+.infoContainer {
+    width: 100%;
+    height: 50vh;
+    background-color: #2F74B6;
+    position: relative;
+    bottom: 200px;
+}
+
+.infoContainer {
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.infoContainer h1 {
+    font-weight: bolder;
+    width: 60%;
+}
+
+.infoContainer p {
+    font-weight: bold;
+    width: 60%;
+}
+
+.infoImage {
+    width: 50%;
+}
+
+.buttonContainer button {
+    width: 145px;
+    height: 40px;
+    border-radius: 15px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.button1 {
+    background-color: #59ABF8;
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+
+.button2 {
+    background-color: white;
+    border: 5px;
+    border-color: #59ABF8;
+    color: #2F74B6;
+
+}
+
+.quoteContainer {
+    background-color: #FF9595;
+}
+
+.quoteContainer img {
+    z-index: 4;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    bottom: 13px;
+}
+
+
+.Quote1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 80%;
+    background-color: yellow;
+    border-radius: 30px;
+}
