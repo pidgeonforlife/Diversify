@@ -1,10 +1,10 @@
 import React from "react";
-import Registration from "../components/HomePage/Registration/Registration";
+import Register from "../components/Registration/Register";
 
 function Register() {
     return (
         <>
-        <Registration />
+        <Register />
         </>
     );
 }
