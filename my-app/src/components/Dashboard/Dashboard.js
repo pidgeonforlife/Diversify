@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import "./Dashboard.css";
 import { auth, db, logout } from "../../firebase";
 import { query, collection, getDocs, where } from "firebase/firestore";
@@ -27,13 +27,17 @@ function Dashboard() {
   return (
     <div className="dashboard">
        <div className="dashboard__container">
-        Welcome,
+        <h2>Welcome,</h2>
          <div>{name}</div>
          We are almost done, just need a few more steps!
+         <div className="buttonContainer">
+         <Link to='/'>
          <button className="dashboardbtn1">Continue</button>
+         </Link>
          <button className="dashboard__btn" onClick={logout}>
           Logout
          </button>
+         </div>
        </div>
      </div>
   );
