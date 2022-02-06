@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+        <Link to='/home' className='navbar-logo' onClick={closeMobileMenu}>
           <img src='/images/Diversify.png'/>
         </Link>
         <div className='menu-icon' onClick={handleClick}>

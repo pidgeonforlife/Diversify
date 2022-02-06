@@ -20,7 +20,7 @@ function Dashboard() {
     }
   };
   useEffect(() => {
-    if (loading) return;
+    if (loading) return navigate("/Preference");
     if (!user) return navigate("/");
     fetchUserName();
   }, [user, loading]);
@@ -31,7 +31,7 @@ function Dashboard() {
          <div>{name}</div>
          We are almost done, just need a few more steps!
          <div className="buttonContainer">
-         <Link to='/'>
+         <Link to='/Preference'>
          <button className="dashboardbtn1">Continue</button>
          </Link>
          <button className="dashboard__btn" onClick={logout}>
