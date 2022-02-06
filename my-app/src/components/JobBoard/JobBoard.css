@@ -1,0 +1,112 @@
+.jobBoardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.jobBoardFeatures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.jobBoardFeatures div {
+    width: 50px;
+    height: 50px;
+}
+
+.feature1 {
+    background: rgba(89, 171, 248, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+.feature2 {
+    background: rgba(89, 171, 248, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+.feature3 {
+    background: rgba(89, 171, 248, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+.jobBoardFeatures p {
+    color: black;
+    font-weight: 200;
+}
+
+.carouselJob {
+    height: 200px;
+}
+
+.jobBoardContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.jobOfDay img {
+    width: 100%
+}
+
+.AvailableJobContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.jobLists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 278px;
+    height: 151px;
+    background: #FAF6F6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+    margin-top: 45px;
+    padding: 10px;
+
+}
+
+.jobLists p {
+    color: black;
+    font-weight: 300;
+}
+
+.lrnButton {
+    border-radius: 10px;
+    border: none;
+    height: 90px;
+    background: #4C6BBA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.newButton {
+    border-radius: 10px;
+    border: none;
+    background: #40BA45;
+    width: 67px;
+    color: white;
+    margin-top: 10px;
+}

@@ -12,7 +12,6 @@ function AppPage() {
         <ProfileNav />
         <ProfileBody />
         <Footer />
-
         </>
     );
 }

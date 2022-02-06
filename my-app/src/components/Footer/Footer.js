@@ -14,7 +14,9 @@ function Footer() {
                 <Link to='/apphome'> 
                     <button><i class="fas fa-home"></i></button>
                 </Link>
+                <Link to='/appjobboard'>
                 <button><i class="fas fa-briefcase"></i></button>
+                </Link>
                 <button><i class="fas fa-comments"></i></button>
                 <Link to='/app'>
                     <button><i class="fas fa-user"></i></button>

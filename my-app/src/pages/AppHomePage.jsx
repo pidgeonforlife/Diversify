@@ -4,11 +4,6 @@ import AppHome from "../components/AppHome/AppHome";
 import AppHome2 from "../components/AppHome/AppHome2";
 import Footer from "../components/Footer/Footer";
 
-
-
-
-
-
 function AppHomePage() {
     return (
         <>
