@@ -16,7 +16,9 @@ function Footer() {
                 </Link>
                 <button><i class="fas fa-briefcase"></i></button>
                 <button><i class="fas fa-comments"></i></button>
-                <button><i class="fas fa-user"></i></button>
+                <Link to='/app'>
+                    <button><i class="fas fa-user"></i></button>
+                </Link>
             </div>
         </div>
     </div>
