@@ -4,11 +4,13 @@ import Login from "./components/Login/Login";
 import Register from "./components/Registration/Register";
 import Reset from "./components/Reset/Reset";
 import Dashboard from "./components/Dashboard/Dashboard";
+import Home from "./pages/Home";
 function App() {
   return (
     <div className="app">
       <Router>
         <Routes>
+          <Route exact path="/home" element={<Home />} />
           <Route exact path="/" element={<Login />} />
           <Route exact path="/register" element={<Register />} />
           <Route exact path="/reset" element={<Reset />} />
