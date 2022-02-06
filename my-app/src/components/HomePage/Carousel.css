@@ -84,6 +84,11 @@
     width: 50%;
 }
 
+.buttonContainer {
+    display: flex;
+    align-items: center;
+}
+
 .buttonContainer button {
     width: 145px;
     height: 40px;

@@ -1,0 +1,47 @@
+.footerImage img {
+    width: 100%;
+    height: 30px;
+}
+
+.footerBar {
+    background: #3D4656;
+    width: 100%;
+    height: 83px;
+}
+
+.connectContainer {
+    margin-top: 90px;
+}
+
+.footerButtonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.footerButtonContainer button {
+    background-color: transparent;
+    border: none;
+    margin-top: 30px;
+}
+
+.fa-home {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.fa-briefcase {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.fa-comments {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.fa-user {
+    font-size: 1.5rem;
+    color: white;
+}

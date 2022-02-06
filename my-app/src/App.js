@@ -7,6 +7,8 @@ import Home from "./pages/Home";
 import RegisterPage from "./pages/Registration";
 import DashboardPage from "./pages/DashboardPage";
 import PreferencePage from "./pages/PreferencePage";
+import AppPage from "./pages/AppPage";
+import AppHomePage from "./pages/AppHomePage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route exact path="/reset" element={<Reset />} />
           <Route exact path="/dashboard" element={<DashboardPage />} />
           <Route exact path="/preference" element={<PreferencePage />} />
+          <Route exact path="/app" element={<AppPage />} />
+          <Route exact path="/apphome" element={<AppHomePage />} />
         </Routes>
       </Router>
     </div>
