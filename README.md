@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Diversify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 💡 Inspiration 💡
+According to the Equal Employment Opportunity Commission, only 15.4% of the employees in the tech industry are of minority descent. Of the minorities in the tech industry, 4% of them are women. By giving job searching minorities a platform where they can connect with tech companies directly and search for tech jobs, our app aims to change that!
 
-## Available Scripts
+## ⚙️ What it does ⚙️
 
-In the project directory, you can run:
+You can sign up on the app and connect with employers directly or search the job board and get tailored results based on your location and job query.
 
-### `npm start`
+## 🛠️ How we built it 🛠️
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+For the frontend, we used React (JS)/(Bootstrap) and FontAwesome to create a visual and accessible way for users to communicate.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To store user data, we took advantage of Firebase and used Axios to fetch any data required from firebase. We also used react-router-dom to handle routing inside of React(JS).
 
-### `npm test`
+For the recommendation feature, we used Pandas, Numpy and Seaborn to preprocess our data. We trained our model using Sklearn on 21,000 different job listings.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Check out our full app demo here! https://devpost.com/software/diversify-vf8lm9?ref_content=user-portfolio&ref_feature=in_progress
 
-### `npm run build`
+## 😣 Challenges we ran into 😣
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We were plagued with challenges throughout BCHacks because 3 of us are first time hackers.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Some Challenges include:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Getting reactJS to work on everyone's computer
+Organizing schedules
+Finding a good dataset for job listings
+Getting multiplier reactJS pages to work together seamlessly
 
-### `npm run eject`
+## 🎉 Accomplishments that we're proud of 🎉
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+As a team consisting of 3 first time hackers and 1 semi-experienced hacker, we accomplished A LOT during the past 24 hours!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Some notable accomplishments include:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Figuring out how Github push, pulls and branches work (Finally understand Git!!)
+Designing the app from scratch (we just found out about figma)
+Using so many tools, languages and frameworks at once, and making them work together :D
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ⏭️What's next for Diversify ⏭️
 
-## Learn More
+Implement a chat feature so users can talk amongst themselves and employers
+Expand on the search feature (add more search terms)
+Make our job board more aesthetically pleasing
+Have a 'posts' area where users can talk about their experiences and give advice
+Possibly have a resume builder built in to the app to help users with their application process
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Built With
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+font-awesome
+numpy
+pandas
+python
+react
+react-router-dom
+seaborn
+sklearn
